@@ -1,3 +1,10 @@
 spring:
   application:
     name: spring-boot-reactive-simple-example
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
